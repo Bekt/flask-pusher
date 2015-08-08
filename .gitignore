@@ -3,9 +3,12 @@ __pychace__/
 *.so
 *.egg
 *.egg-info/
+*.eggs/
 
 .DS_Store
 
+dist/
+build/
 _build
 
 # Virtualenv.
