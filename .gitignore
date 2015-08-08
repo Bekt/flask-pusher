@@ -1,0 +1,12 @@
+__pychace__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+
+.DS_Store
+
+_build
+
+# Virtualenv.
+venv/
