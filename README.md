@@ -14,6 +14,7 @@ The Pusher instance's JSON encoder and decoder also fallback to the `app.json_en
 `app.json_decoder` if they are not specified.
 
 * [Documentation](http://flask-pusher.readthedocs.org/en/latest/)
+* [PyPi](https://pypi.python.org/pypi/FlaskPusher)
 * [Official Pusher Python
   library](https://github.com/pusher/pusher-http-python)
 
