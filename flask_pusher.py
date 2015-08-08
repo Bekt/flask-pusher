@@ -10,7 +10,7 @@ class Pusher(BasePusher):
 
     def init_app(self, app, **options):
         """Configures the application."""
-        sd = lambda k, v: options.setdefault(k, v)
+        sd = options.setdefault
         conf = app.config
 
         sd('app_id', conf.get('PUSHER_APP_ID'))
