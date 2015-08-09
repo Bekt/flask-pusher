@@ -50,7 +50,7 @@ from flask_pusher import Pusher
 pusher = Pusher()
 
 def create_app():
-    app = Flask(__name__):
+    app = Flask(__name__)
     pusher.init_app(app)
 
     # Use any pusher.Pusher method.

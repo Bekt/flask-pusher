@@ -22,7 +22,7 @@ import shlex
 #sys.path.insert(0, os.path.abspath('.'))
 
 sys.path.append(os.path.abspath('_themes'))
-sys.path.append(os.path.abspath('../flask-pusher'))
+sys.path.append(os.path.abspath('../'))
 
 html_theme_path = ['_themes']
 html_theme = 'flask_small'
